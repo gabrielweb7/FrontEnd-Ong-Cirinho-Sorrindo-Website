@@ -1,0 +1,269 @@
+/****************************************** 
+	
+		Desenvolvido por Gabriel da Luz 
+		
+		http://gabrieldaluz.com.br/
+
+		 
+		Os corpos podem viver separados..
+		mais as linhas connectam nossos corações..
+		E um beijo para o Lucas kk :P
+
+	
+*******************************************/
+
+/* Ajuste do container do Bootstrap */
+@media (min-width: 1200px) { 
+
+	.container { max-width: 1200px; }
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+	header div.middle nav.menu { padding-left: 59px; }
+	header div.middle nav.menu > ul > li { margin-right: 8px; }
+	header div.middle a.quero-doar { padding: 10px 15px; font-size: 13px; }
+	.checkDoacao .moto {     width: 210px; }
+	.checkDoacao .header { margin-left: 155px; }
+	.checkDoacao .conteudo { padding-left: 212px; }
+	.checkDoacao .conteudo form .label input[type=submit] { padding: 8px 25px; }
+	.quote { margin-left:0px; }
+	footer .maps { height: 320px; }
+	section.slider .owl-carousel .owl-prev { left: 5%; }
+	section.slider .owl-carousel .owl-next { right: 5%; }
+	section.slider .owl-carousel .owl-nav { top:35%; }
+	section.slider .owl-carousel .owl-item img { height:300px; } 
+
+	.widgetGaleriaDeImagens .owl-carousel .owl-item img { height: 100px;  }
+	.widgetGaleriaDeImagens .owl-carousel .owl-prev img { height:38px; }
+	.widgetGaleriaDeImagens .owl-carousel .owl-next img { height:38px; }
+
+	section.singlePage .headerInterna .left .compartilhe { font-size: 12px;font-weight: bold; }
+
+	section.singlePage .internaSubtitulo {      color: #404040; }
+
+	section.singlePage .headerInterna img.capa {      height: 370px; }
+
+	.galeriaDeVideos a.compartilhe {     font-size: 13px; }
+	.galeriaDeVideos .sidebar .item span.titulo {     font-size: 14px; }
+	.galeriaDeVideos .sidebar .item span.subtitulo {  font-size: 13px;  }
+	.galeriaDeVideos .sidebar .item img { width: 140px; }
+
+	.fc-social { padding-top: 74px; }
+	.fc-social .fc-social-item { text-align:center; margin-bottom: 10px; }
+	.fc-social .fc-social-item span { display:block; margin-top:10px; }
+	.fc-map-info .fc-map-info-item {     padding-left: 13px; }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+	
+	header .col-lg-2 { text-align:center; }
+	.blockShadow { margin-bottom: 100px; }
+	.blockShadowLast { margin-bottom: 15px; }
+	.owlNoticias { margin-bottom: 75px; margin-top: 12px; }
+	.sidebarWidget .sidebarWidgetContent iframe { height: 360px; }
+	.sidebarWidget .widgetBottom { width: 50%; margin: 0 auto; margin-top: 10px; margin-bottom: 20px; } 
+	.doeSeuCabelo .containerBoxes { margin-top: 40px;     white-space: initial; }
+	.doeSeuCabelo .containerBoxes .boxItem { height:320px; width:40%; margin-bottom: 20px; }
+	.formPeruca .formInstrucoes { margin-bottom: 33px; }
+	footer .maps { height: 240px; }
+	.formPeruca .formHeader span,
+	.homeParceiros .titulo span { font-size: 30px; }
+	header div.middle nav.menu {     padding-left: 0px;      text-align: center;}
+
+	section.singlePage .headerInterna .right {  float: left; margin-left: 19px; }
+
+	section.singlePage .headerInterna img.capa {      height: 300px; }
+
+	section.singlePage .headerInterna .col-lg-9 { padding-right:15px; }
+	section.singlePage .headerInterna .col-lg-9 .miniColorBar { margin-top: 0px; height:5px; }
+
+	section.singlePage .internaBody { padding-left:0px; padding-right:0px; }
+
+	.widgetGaleriaDeImagens .owl-carousel .owl-item img { height: 85px; }
+
+	section.singlePage .pd-l-0 { padding-left:15px; }
+	.galeriaDeVideos .sidebar .item img {     width: 190px; }
+
+	.galeriaDeVideos .boxVideo span.titulo { text-align:center; }
+	.galeriaDeVideos .boxVideo span.subtitulo { text-align:center; }
+
+	.galeriaDeVideos .sidebar .item {     margin-bottom: 13px; }
+
+	.fc-form .pd-r-6 { padding-right:15px; }
+	.fc-form .pd-l-6 { padding-left:15px; }
+
+	.fc-social {padding-top: 44px; }
+	.fc-social .fc-social-item { margin-bottom: 23px; }
+
+	.fc-map-info {   padding-left:15px; padding-right:15px;  padding-bottom: 25px;  text-align:center; }
+ 
+	.fc-map-info .fc-map-info-item .imagem { float:initial; text-align:center; width:100%; margin-bottom:15px; }
+	.fc-map-info .fc-map-info-item .info { float:initial; text-align:center; width:100%; max-width:90%; margin: 0 auto; }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.checkDoacao .header { margin-left: 65px; }
+	.checkDoacao .moto { left: -90px; }
+	.checkDoacao .conteudo { padding-left: 124px; }
+	.doeSeuCabelo .containerBoxes .boxItem { height: 250px; }
+	.doeSeuCabelo .titulo .labelContainer {     margin-top: 8px;    width: 80%; }
+	.formPeruca .formHeader img { width: 75px; }
+	.formPeruca .formHeader span,
+	.homeParceiros .titulo span { font-size: 25px; }
+	header div.middle nav.menu > ul > li { margin-right: 4px; }
+	header div.middle nav.menu > ul > li > a { font-size:15px; }
+	header div.middle a.quero-doar { margin-top: 17px; }
+
+	section.singlePage .headerInterna img.capa {      height: 200px; }
+
+	section.singlePage .headerInterna .right img {  height: 25px; margin-top: 17px; }
+
+	.widgetGaleriaDeImagens .owl-carousel .owl-item img { height: 143px; }
+
+	.widgetGaleriaDeImagens .owl-carousel .owl-nav {     top: 29%;  }
+
+	.galeriaDeVideos a.compartilhe { margin-bottom:10px; }
+
+	.resultadoPesquisa .resultados .item img { width: 100%;    height: 170px; margin-bottom:10px; }
+
+	section.singlePage .singlePageTitleLeft { width:100%; text-align:center; margin-right:0px; }
+
+	.resultadoPesquisa .btnNovaPesquisa {     width: 100%; text-align: center; margin-top: 20px; }
+
+	.resultadoPesquisa .resultados .item img { margin-right:0px;  }
+
+	.resultadoPesquisa .resultados .item .titulo { padding-right:0px; }
+	.resultadoPesquisa .resultados .item .subtitulo  { padding-right:0px; }
+
+
+}
+
+@media only screen and (max-width: 676px) {
+
+	.widgetGaleriaDeImagens .owl-carousel { width: 70%; }
+	.widgetGaleriaDeImagens .owl-carousel .owl-prev {left: -50px;  }
+	.widgetGaleriaDeImagens .owl-carousel .owl-next {right: -50px;  }
+	.widgetGaleriaDeImagens .owl-carousel .owl-item img { height: 120px; }
+	.widgetGaleriaDeImagens .owl-carousel .owl-nav { top: 25%; }
+
+}
+
+@media only screen and (max-width: 585px) { 
+
+	nav.menu > .menu-mobile { display:block; text-align:left; cursor:pointer; }
+	
+	header div.middle nav.menu > ul { display:none; }
+	header div.middle nav.menu > ul > li { height:auto; width:100%; display:block; margin-bottom:10px; }
+	header div.middle nav.menu > ul > li.tem-submenu > ul {    position: relative;  width: 100%; top: 0px; left: 0px; z-index:10; }
+
+	header div.middle nav.menu > ul > li.tem-submenu > ul > li.tem-submenu > ul {  position: relative;  width: 100%; top: 0px; left: 0px;  }
+	header div.middle nav.menu > ul > li.tem-submenu > ul > li.tem-submenu > ul > li { background: #dcdcdc; }
+
+	section.slider .owl-carousel .owl-item img { height: 226px; }
+
+	.footerParceiros .titulo span { display:block; width:100%; margin-top:15px;  margin-bottom:18px; top:0px; }
+
+	.galeriaDeVideos .sidebar .item img, 
+	.galeriaDeVideos .boxVideo img { width:100%; height: 300px; object-fit: cover; margin-bottom:10px; }
+
+	.galeriaDeVideos .sidebar .item span.titulo { font-size:17px; text-align:center; }
+	.galeriaDeVideos .sidebar .item span.subtitulo { font-size:15px; text-align:center; }
+
+
+}
+@media only screen and (max-width: 542px) { 
+	
+	.doeSeuCabelo .containerBoxes .boxItem {height: 230px; }
+
+}
+
+@media only screen and (max-width: 500px) { 
+	
+	header div.top div.left,
+	header div.top div.right { left:inherit; width: 100%;text-align:center; margin-top:8px; margin-bottom:8px;}
+
+	.blockShadow {     margin-bottom: 77px; }
+	.blockShadowLast { margin-bottom:8px; }
+	.doeSeuCabelo .containerBoxes .boxItem { width:100%; height: 320px; }
+
+	.formPeruca form .left { width:100%; }
+	.formPeruca form .left a { width:100%; text-align:center; }
+	.formPeruca form .right { width:100%; }
+	.formPeruca form .right input { width:100%; text-align:center; }
+	.formPeruca form #anexarArquivos { margin-bottom: 10px; }
+
+	.doeSeuCabelo .titulo .imagem { float: inherit; width: 100%; text-align: center; }
+	.doeSeuCabelo .titulo .labelContainer { margin-top: 13px; width: 100%; text-align: center; margin-left: 0px; padding: 0px 15px; } 
+
+	section.pd-b-30 {     padding-bottom: 20px; }
+	section.pd-t-30 {     padding-top: 20px; }
+	section.pd-b-50 {     padding-bottom: 30px; }
+
+	.formPeruca .formHeader span {     display: block; margin-top: 10px; margin-bottom: 16px; }
+	.formPeruca .formInstrucoes {padding-right: 0px; padding-left: 0px; } 
+
+	.formPeruca form input[type=submit] { margin-bottom:10px; }
+
+	.galeriaDeVideos .sidebar .item img, .galeriaDeVideos .boxVideo img { height:250px; }
+	.galeriaDeVideos .videoMaster iframe { height:300px; }
+
+}
+
+@media only screen and (max-width: 425px) { 
+
+	.checkDoacao .conteudo form .label input[type=submit] { padding: 8px 11px; font-size: 12px; } 
+
+	footer .rodapeInterna { font-size:12px; }
+
+	section.singlePage .headerInterna img.capa { height: 150px; }
+
+	section.singlePage .internaSubtitulo {     font-size: 15px; }
+
+	.galeriaDeVideos .sidebar .item img, .galeriaDeVideos .boxVideo img { height:200px; }
+	.galeriaDeVideos .videoMaster iframe { height:220px; }
+
+	section.singlePage .singlePageTitleLeft { text-align:center; }
+	section.singlePage .singlePageTitleLeft img { height: 60px; }
+	section.singlePage .singlePageTitleLeft span { font-size: 22px; }
+
+	.fc-map-info .singlePageTitleLeft img { height:60px;  }
+	.fc-map-info .singlePageTitleLeft span {font-size: 22px;   }
+
+	.fc-social .fc-social-item span, .fc-social .fc-social-item span a { font-size:12px; }
+	.fc-social .fc-social-item img { height: 32px; }
+
+	.fc-map-info .fc-map-info-item .info p { font-size:12px; }
+
+	.fc-map-info .fc-map-info-item .imagem {     margin-bottom: 4px; }
+
+	.fc-map-info .fc-map-info-item.email .info { padding-bottom: 2px; }
+
+	.footerParceiros .titulo span { line-height: 39px; }
+}
+
+@media only screen and (max-width: 375px) {  
+
+	.checkDoacao .moto { display:none; }
+
+	.checkDoacao .header {     margin-left: 0px; text-align: center; }
+
+	.checkDoacao .header span.subtitulo { margin-top: 19px; }
+
+	.checkDoacao .conteudo { padding-left: 0px; }
+
+	.quote.mg-t-46 { margin-top:27px; }
+
+	.singlePageTitle img { height:60px; }
+	.singlePageTitle span { font-size: 22px; }
+
+	.galeriaDeVideos .sidebar .item img, .galeriaDeVideos .boxVideo img { height:170px; }
+	.galeriaDeVideos .videoMaster iframe { height:200px; }
+
+}
